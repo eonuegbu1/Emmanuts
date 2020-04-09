@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head>
+      <title>
+         Piggyvest Sign Up Page
+      </title>
+      <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <div class="vest">
+    <body>
+      <div class="container">
+        <div class="piggy">
+          <h1> <img src="./piggyimg.png"> </h1>
+        </div>
+          <div class="temi">
+            <h2>Create a Secure Account</h2><p>Welcome to the future of Savings & Investments </p>
+              <form action="Thanks.html">
+                <label for="fname">Full Name </label><br>
+                <input type="text" id="fname" placeholder="Full Name" required><br> <br>
+                <label for="email">Email Address</label><br>
+                <input type="email" id="fname" placeholder="Email Address" required><br> <br>
+                <label>Phone Number</label><br>
+                <input type="number" id="fname" placeholder="Phone Number" required><br> <br>
+                <label>Password</label><br>
+                <input type="password" id="fname" placeholder="Password" required maxlength="8" minlength="5"><br> <br>
+                <label>Referrer Phone or Promo Code (Optional)</label><br>
+                <input type="alphanumeric" id="fname" placeholder="Referrer Phone Or Code"><br> <br>
+                <label>How Did You Hear About Us? (Optional)</label><br>
+                  <select id="select">
+                    <option value="" selected disabled>Click To Select</option>
+                    <option>Facebook</option>
+                    <option>Twitter</option>
+                    <option>Instagram</option>
+                    <option>Friend/Family/Coworker Referral</option>
+                    <option>Google search</option>
+                    <option>Google Playstore</option>
+                    <option>Online Blog</option>
+                    <option>Local Newspaper</option>
+                    <option>At an event</option>
+                    <option>Other</option>
+                  </select><br> <br>
+                <div class="button">
+                  <button>CREATE ACCOUNT</button>
+                </div>
+              </form>
+          </div> 
+        <div class="anchor">
+          <a href="https://dashboard.piggyvest.com/login"> Already have an account? Log in</a>
+        </div>
+      </div>
+    </body>
+  </div>
+</html>
